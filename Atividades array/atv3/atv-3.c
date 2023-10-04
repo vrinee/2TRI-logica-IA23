@@ -16,9 +16,9 @@ int main() {
     {
         for (int j = 0; j < 5; j++)
         {
-            printf("\n %d",base[i][j]);
+            printf("%d ",base[i][j]);
         }
-        
+       printf("\n");
     }
     return 0 ;
 }
